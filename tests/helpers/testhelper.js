@@ -30,7 +30,7 @@
 
 'use strict';
 
-var JSHINT = require("../..").JSHINT;
+var JSHINT = require('../../src/jshint.js').JSHINT;
 
 if (exports.setup === undefined || exports.setup === null) {
   exports.setup = {};

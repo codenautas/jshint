@@ -32,7 +32,3 @@ if (typeof((undef))) {}
 if (typeof undef()) {}
 if (typeof +undef) {}
 if (typeof(undef, 0)) {}
-
-function a() {
-    return a;
-}

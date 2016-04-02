@@ -42,17 +42,3 @@ default:
         return;
     }
 }());
-
-switch (foo) {
-case 1:
-    // There can be a new line after /* falls through */
-    /* falls through */
-
-case 2:
-    // There can be a comment after /* falls through */
-    /* falls through */
-    // comment
-    /* comment */
-default:
-    doSomething();
-}
